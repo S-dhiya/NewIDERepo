@@ -17,7 +17,7 @@ public class DemoPorject {
 			List<Document> docs=new ArrayList<>();
 			Document doc=new Document();
 			doc.append("id",6);
-			doc.append("name","selvi");
+			doc.append("name","sandy");
 			doc.append("salary",1000.00);
 			docs.add(doc);
 			collection.insertMany(docs);
