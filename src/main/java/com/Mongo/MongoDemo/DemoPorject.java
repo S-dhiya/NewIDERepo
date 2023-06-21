@@ -16,7 +16,7 @@ public class DemoPorject {
 			MongoCollection<org.bson.Document> collection=database.getCollection("Emp");
 			List<Document> docs=new ArrayList<>();
 			Document doc=new Document();
-			doc.append("id",6);
+			doc.append("id",7);
 			doc.append("name","sandy");
 			doc.append("salary",1000.00);
 			docs.add(doc);
